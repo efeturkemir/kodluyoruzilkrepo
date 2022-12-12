@@ -1,0 +1,39 @@
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamaları şu şekildedir:
+
+1- Dizideki ilk element (7) ile kök düğümü oluşturulur.
+
+2- Sonraki element (5) kök düğümün sol alt dalı olarak eklenir.
+
+3- Bir sonraki element (1) kök düğümün sol alt dalına bir sol alt dal olarak eklenir.
+
+4- Bir sonraki element (8) kök düğümün sağ alt dalı olarak eklenir.
+
+5- Bir sonraki element (3) kök düğümün sol alt dalına bir sağ alt dal olarak eklenir.
+
+6- Bir sonraki element (6) kök düğümün sağ alt dalına bir sağ alt dal olarak eklenir.
+
+7- Bir sonraki element (0) kök düğümün sol alt dalına bir sağ alt dal olarak eklenir.
+
+8- Bir sonraki element (9) kök düğümün sağ alt dalının sağ alt dalına bir sağ alt dal olarak eklenir.
+
+9- Bir sonraki element (4) kök düğümün sağ alt dalının sağ alt dalına bir sol alt dal olarak eklenir.
+
+10-Son element (2), kök düğümün sol alt dalının sol alt dalının sağ alt dalı olarak ekleyin.
+
+Tüm elementler eklendikten sonra Binary-Search-Tree şu şekilde görünecektir:
+
+          7
+         / \
+        5   8
+       /     \
+      1       3
+     /         \
+    0           6
+                   \
+                    9
+                   /
+                  4
+                 /
+                2
+
+
